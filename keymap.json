@@ -1,0 +1,63 @@
+[
+  {
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown"
+    }
+  },
+  {
+    "bindings": {
+      // "ctrl-escape": "terminal_panel::ToggleFocus",
+      "ctrl-escape": "workspace::ToggleBottomDock",
+      "ctrl-alt-b": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "bindings": {
+      "Alt-n": "workspace::NewTerminal"
+    }
+  },
+  {
+    "bindings": {
+      "alt-j": "menu::SelectNext",
+      "alt-k": "menu::SelectPrevious"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-j": "editor::ContextMenuNext",
+      "alt-k": "editor::ContextMenuPrevious"
+    }
+  },
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "bindings": {
+      "alt-j": "editor::ContextMenuNext",
+      "alt-k": "editor::ContextMenuPrevious"
+    }
+  },
+  {
+    "context": "BufferSearchBar && !in_replace > Editor",
+    "bindings": {
+      "alt-j": "search::PreviousHistoryQuery",
+      "alt-k": "search::NextHistoryQuery"
+    }
+  },
+  {
+    "context": "ProjectSearchBar > Editor",
+    "bindings": {
+      "alt-j": "search::PreviousHistoryQuery",
+      "alt-k": "search::NextHistoryQuery"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-j": ["terminal::SendKeystroke", "down"],
+      "alt-k": ["terminal::SendKeystroke", "up"]
+    }
+  }
+]

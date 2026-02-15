@@ -1,0 +1,43 @@
+{
+  "project_panel": {
+    "hide_gitignore": true
+  },
+  "theme": "Parchment Candlelight Color",
+  "vim_mode": true,
+  "ui_font_size": 14,
+  "ui_font_family": "Geist Mono",
+  "ui_font_weight": 400,
+  "buffer_font_size": 14,
+  "buffer_line_height": "comfortable",
+  "buffer_font_family": "monospace",
+  "buffer_font_weight": 400,
+  "tab_bar": {
+    "show": false
+  },
+  "terminal": {
+    "font_family": "Geist Mono",
+    "font_size": 15
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "theme_overrides": {
+    "Github Light Monochrome": {
+      "version_control.added": "#000000",
+      "version_control.deleted": "#000000",
+      "version_control.modified": "#000000"
+    }
+  },
+  "title_bar": {
+    "show": "never"
+    // "show_branch_icon": false,
+    // "show_branch_name": false,
+    // "show_project_items": false,
+    // "show_onboarding_banner": false,
+    // "show_user_picture": false,
+    // "show_user_menu": false,
+    // "show_sign_in": false,
+    // "show_menus": false
+  }
+}
